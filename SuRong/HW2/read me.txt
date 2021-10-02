@@ -1,0 +1,7 @@
+1. 訓練資料為 Erlotinib data of GDSC.csv,
+   其中 row為 cell lines, column為 genes, dim為 370 x 16383
+   (第一個column為 IC50, IC50<2為 sensitive(1), IC50>2為resistant(0))
+
+2. 測試資料為 Erlotinib data of Clinical trials.csv,
+   其中 row為 patients, column為 genes, dim為 25 x 16383
+   (第一個column為 OS, OS = 1為 sensitive, OS = 0為resistant)
